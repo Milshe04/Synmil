@@ -35,7 +35,6 @@ while ($task = $result->fetch_assoc()):
 <?php endwhile; ?>
 
 
-
         <h2>
           <a href="add_task.php">Add Task</a>
         </h2>
