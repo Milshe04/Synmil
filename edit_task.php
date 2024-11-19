@@ -5,7 +5,6 @@ include 'db.php';
 // Check if ID is provided
 if (isset($_GET['id'])) {
   $id = $_GET['id'];
-
   // Select task query
   $sql = "SELECT * FROM tasks WHERE id = '$id'";
   $result = $conn->query($sql);
